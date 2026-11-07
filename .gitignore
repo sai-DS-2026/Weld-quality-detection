@@ -1,0 +1,46 @@
+
+# Python virtual environments
+.weld_venv/
+.venv/
+venv/
+env/
+
+# Dataset images and annotations
+datasets/
+
+# YOLO training and validation outputs
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated prediction outputs
+prediction.json
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+#test file
+test.py
